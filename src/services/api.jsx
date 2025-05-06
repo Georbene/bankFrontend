@@ -2,7 +2,7 @@ import axios from "axios"
 
 
 const api = axios.create({
-  baseURL: window._env_?.API_URL || "http://localhost:5000",
+  baseURL: window._env_?.API_URL || "https://bankbackend-s7dw.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
