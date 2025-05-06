@@ -1,0 +1,91 @@
+.credit-card {
+    background: linear-gradient(135deg, #2e7d32 0%, #126317 100%);
+    color: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  
+  .card-chip {
+    width: 50px;
+    height: 40px;
+    background-color: #e6c34a;
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  .card-chip::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  .card-number {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+    font-family: "Courier New", monospace;
+  }
+  
+  .card-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .card-holder,
+  .card-expiry {
+    flex: 1;
+  }
+  
+  .label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin-bottom: 0.25rem;
+  }
+  
+  .value {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .card-type {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+  
+  .card-type img {
+    height: 40px;
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 576px) {
+    .credit-card {
+      height: 180px;
+    }
+  
+    .card-number {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .card-chip {
+      width: 40px;
+      height: 30px;
+      margin-bottom: 1.5rem;
+    }
+  }
+  

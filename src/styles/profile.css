@@ -1,0 +1,34 @@
+.profile-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  
+  .profile-container h1 {
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+  
+  .account-info-item {
+    margin-bottom: 1.5rem;
+  }
+  
+  .account-info-item .label {
+    font-size: 0.8rem;
+    color: var(--text-light);
+    margin-bottom: 0.25rem;
+  }
+  
+  .account-info-item .value {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .security-item {
+    margin-bottom: 1.5rem;
+  }
+  
+  .security-item:last-child {
+    margin-bottom: 0;
+  }
+  

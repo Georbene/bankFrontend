@@ -1,0 +1,48 @@
+.create-pin-container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .create-pin-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: none;
+  }
+  
+  .create-pin-card h2 {
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+  
+  .pin-input {
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.5rem;
+  }
+  
+  .pin-security-tips {
+    background-color: rgba(46, 125, 50, 0.05);
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+  }
+  
+  .pin-security-tips h5 {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pin-security-tips ul {
+    margin-bottom: 0;
+    padding-left: 1.5rem;
+  }
+  
+  .pin-security-tips li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .pin-security-tips li:last-child {
+    margin-bottom: 0;
+  }
+  

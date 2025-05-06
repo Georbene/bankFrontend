@@ -1,0 +1,67 @@
+.dashboard-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  
+  .welcome-message {
+    margin-bottom: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+  
+  .balance-card {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    height: 100%;
+  }
+  
+  .balance-card .card-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    opacity: 0.9;
+  }
+  
+  .balance-amount {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+  }
+  
+  .balance-actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .balance-actions .btn {
+    flex: 1;
+  }
+  
+  .balance-actions .btn-success {
+    background-color: white;
+    color: var(--primary-color);
+    border: none;
+  }
+  
+  .balance-actions .btn-success:hover {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    color: var(--primary-dark) !important;
+  }
+  
+  .balance-actions .btn-outline-success {
+    border-color: white;
+    color: white;
+  }
+  
+  .balance-actions .btn-outline-success:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-color: white !important;
+    color: white !important;
+  }
+  
+  @media (max-width: 992px) {
+    .balance-card {
+      margin-bottom: 1.5rem;
+    }
+  }
+  

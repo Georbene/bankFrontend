@@ -1,0 +1,49 @@
+.admin-dashboard-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  
+  .admin-dashboard-container h1 {
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+  
+  .table th {
+    background-color: rgba(46, 125, 50, 0.05);
+    font-weight: 600;
+    border-bottom: 2px solid var(--primary-color);
+  }
+  
+  .table td {
+    vertical-align: middle;
+  }
+  
+  .form-select:focus,
+  .form-control:focus {
+    border-color: var(--primary-light);
+    box-shadow: 0 0 0 0.25rem rgba(46, 125, 50, 0.25);
+  }
+  
+  .badge {
+    font-weight: 500;
+    padding: 0.5em 0.75em;
+  }
+  
+  .card-header {
+    background-color: rgba(46, 125, 50, 0.05);
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .card-header h5 {
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+  
+  @media (max-width: 992px) {
+    .admin-dashboard-container {
+      padding-top: 1.5rem;
+      padding-bottom: 2rem;
+    }
+  }
+  

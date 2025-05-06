@@ -1,0 +1,24 @@
+.transaction-history-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  
+  .transaction-history-container h1 {
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  
+  .pagination .page-link {
+    color: var(--primary-color);
+  }
+  
+  .pagination .page-link:focus {
+    box-shadow: 0 0 0 0.25rem rgba(46, 125, 50, 0.25);
+  }
+  
