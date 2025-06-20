@@ -128,10 +128,10 @@ const LandingPage = () => {
             <Col md={3}>
               <h5>Contact</h5>
               <address>
-                <p>123 Banking Street</p>
+                <p>123 George Banking Street</p>
                 <p>Financial District</p>
-                <p>Email: support@SecureBank.com</p>
-                <p>Phone: (123) 456-7890</p>
+                <p>Email: George.com</p>
+                <p>Phone: 08133710863</p>
               </address>
             </Col>
             <Col md={3}>
